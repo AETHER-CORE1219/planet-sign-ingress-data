@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below and link to the dataset page."
+title: "Planet sign ingress data: Moon, Venus, Mars and Mercury, 1940-2030"
+type: dataset
+authors:
+  - name: "GenesisCore Astrology Guide"
+    website: "https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/data"
+version: "1.1.0"
+date-released: "2026-11-12"
+license: CC-BY-4.0
+url: "https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/data"
+repository-code: "https://github.com/AETHER-CORE1219/planet-sign-ingress-data"
+abstract: "Every tropical zodiac sign ingress of Venus, Mars and Mercury (3,130) and every Moon sign change in the tropical (14,599) and sidereal Lahiri (14,598) zodiacs from 1940 to 2030, in UTC and JST, computed with Astronomy Engine 2.1.19. Includes the generator scripts."
+keywords:
+  - astrology
+  - ephemeris
+  - moon sign
+  - venus sign
+  - mars sign
+  - mercury sign
+  - ingress
+  - sidereal
+  - open data
+references:
+  - type: software
+    title: "Astronomy Engine"
+    version: "2.1.19"
+    authors:
+      - family-names: "Cross"
+        given-names: "Don"
+    url: "https://github.com/cosinekitty/astronomy"
