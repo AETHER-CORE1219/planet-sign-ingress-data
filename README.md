@@ -52,6 +52,9 @@ See [CITATION.cff](CITATION.cff). Data: [CC BY 4.0](https://creativecommons.org/
 ## Retrograde periods 2025–2027
 `data/retrograde-periods-2025-2027.csv` — Mercury, Venus, Mars, Jupiter and Saturn retrograde and direct station times (UTC, minutes truncated) with sign and degree. Astronomy Engine 2.1.19, geocentric apparent longitude of date; station = sign change of daily motion, bisected to 30 s. Human-readable calendar: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/retrograde
 
+## New moons, full moons and eclipses 2026–2027
+`data/new-full-moons-2026-2027.csv` — every new and full moon in 2026 and 2027 (UTC and JST, minutes truncated) with the Moon's tropical sign and degree, flagged where a solar or lunar eclipse occurs. Astronomy Engine 2.1.19 (SearchMoonQuarter, SearchGlobalSolarEclipse, SearchLunarEclipse). Human-readable calendar: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/full-moon-new-moon （日本語: https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/full-moon-new-moon）
+
 ## Use it from an AI assistant (MCP)
 Free remote MCP server, no key: `https://genesis-astro-guide-r2owtywexa-an.a.run.app/mcp` — tools for Western + Vedic signs, nakshatra, Ascendant/Lagna, retrograde dates and these ingress tables. Setup: https://github.com/AETHER-CORE1219/genesis-astro-mcp
 
