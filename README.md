@@ -55,6 +55,12 @@ See [CITATION.cff](CITATION.cff). Data: [CC BY 4.0](https://creativecommons.org/
 ## New moons, full moons and eclipses 2026–2027
 `data/new-full-moons-2026-2027.csv` — every new and full moon in 2026 and 2027 (UTC and JST, minutes truncated) with the Moon's tropical sign and degree, flagged where a solar or lunar eclipse occurs. Astronomy Engine 2.1.19 (SearchMoonQuarter, SearchGlobalSolarEclipse, SearchLunarEclipse). Human-readable calendar: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/full-moon-new-moon （日本語: https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/full-moon-new-moon）
 
+## Saturn sign ingresses 1935–2080 (sidereal and tropical)
+
+`data/saturn-ingresses-1935-2080.csv`: every time Saturn changes zodiac sign from 1935 to 2080, in both the sidereal zodiac (Lahiri ayanamsa) and the tropical zodiac, including retrograde re-entries. Columns: `utc` (to the minute), `zodiac` (`sidereal_lahiri` or `tropical`), `from_sign`, `to_sign`, `direction`. Source: NASA JPL Horizons (target 699), geocentric apparent ecliptic-of-date longitude, daily, 4-point Lagrange interpolation. Checked against Swiss Ephemeris tables: tropical Aries 2025-05-25 03:36, sidereal Aries 2027-06-02 23:58 UTC (both within 1 minute).
+
+Built on this data: [Sade Sati dates by Moon sign and calculator](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/sade-sati?utm_source=github&utm_medium=dataset&utm_campaign=saturn-data) · [Saturn return calculator](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/saturn-return?utm_source=github&utm_medium=dataset&utm_campaign=saturn-data)
+
 ## Use it from an AI assistant (MCP)
 Free remote MCP server, no key: `https://genesis-astro-guide-r2owtywexa-an.a.run.app/mcp` — tools for Western + Vedic signs, nakshatra, Ascendant/Lagna, retrograde dates and these ingress tables. Setup: https://github.com/AETHER-CORE1219/genesis-astro-mcp
 
