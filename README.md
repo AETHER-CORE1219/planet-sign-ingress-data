@@ -70,3 +70,9 @@ claude mcp add --transport http genesis-astro https://genesis-astro-guide-r2owty
 
 ## Free calculators in other languages
 [Español](https://genesis-astro-guide-r2owtywexa-an.a.run.app/es) · [Português](https://genesis-astro-guide-r2owtywexa-an.a.run.app/pt) · [हिन्दी](https://genesis-astro-guide-r2owtywexa-an.a.run.app/hi) · [Türkçe](https://genesis-astro-guide-r2owtywexa-an.a.run.app/tr) · [English](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/tools/sign-checker) · [日本語](https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/tools/sign-checker)
+
+## Jupiter sign ingresses 1935–2080 (sidereal and tropical)
+
+`data/jupiter-ingresses-1935-2080.csv`: every time Jupiter changes zodiac sign from 1935 to 2080, in both the sidereal zodiac (Lahiri ayanamsa, "Guru Gochar") and the tropical zodiac, including retrograde re-entries. Columns: `utc` (to the minute), `zodiac` (`sidereal_lahiri` or `tropical`), `from_sign`, `to_sign`, `direction`. Source: NASA JPL Horizons (target 599), geocentric apparent ecliptic-of-date longitude, daily, 4-point Lagrange interpolation. Tropical ingresses into Cancer (2025-06-09 21:02 UTC), Leo (2026-06-30 05:52 UTC) and Virgo (2027-07-26 04:49 UTC) match published JPL-based almanacs to the minute.
+
+Built on this data: [Jupiter transit dates 2020-2035, retrogrades and house by Moon/rising sign](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/jupiter-transit?utm_source=github&utm_medium=dataset&utm_campaign=jupiter-data)
