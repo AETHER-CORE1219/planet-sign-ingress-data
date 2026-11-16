@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aether-core1219.github.io/planet-sign-ingress-data/sitemap.xml

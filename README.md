@@ -16,6 +16,17 @@ Browse the tables and free calculators (no signup):
 - Mars sign: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/mars
 - Mercury sign: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/mercury
 - Ascendant (rising sign): https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/tools/ascendant
+  — calculation notes: https://aether-core1219.github.io/planet-sign-ingress-data/ascendant.html
+- Sade Sati (Moon sign table): https://aether-core1219.github.io/planet-sign-ingress-data/sade-sati-2000-2060.html
+  — calculator: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/sade-sati
+- Saturn returns: https://aether-core1219.github.io/planet-sign-ingress-data/saturn-returns.html
+  — calculator: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/saturn-return
+- Jupiter transits 2020–2035: https://aether-core1219.github.io/planet-sign-ingress-data/jupiter-transits-2020-2035.html
+  — guide: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/jupiter-transit
+- Solar eclipses 2027–2028 (50 cities): https://aether-core1219.github.io/planet-sign-ingress-data/solar-eclipses-2027-2028.html
+  — guide: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/solar-eclipse-2027
+- New and full moons 2026–2027 (table): https://aether-core1219.github.io/planet-sign-ingress-data/lunations-2026-2027.html
+- Retrograde dates 2025–2027 (table): https://aether-core1219.github.io/planet-sign-ingress-data/retrograde-2025-2027.html
 - Dataset page: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/data
 
 ## Columns
@@ -47,17 +58,32 @@ See [CITATION.cff](CITATION.cff). Data: [CC BY 4.0](https://creativecommons.org/
 - 火星星座：https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/mars
 - 水星星座：https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/mercury
 - アセンダント：https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/tools/ascendant
+  — 計算の説明：https://aether-core1219.github.io/planet-sign-ingress-data/ascendant.html
+- サデサティ：https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/sade-sati
+  — 表：https://aether-core1219.github.io/planet-sign-ingress-data/sade-sati-2000-2060.html
+- サターンリターン：https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/saturn-return
+  — 表：https://aether-core1219.github.io/planet-sign-ingress-data/saturn-returns.html
+- 木星の星座移動：https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/jupiter-transit
+  — 表：https://aether-core1219.github.io/planet-sign-ingress-data/jupiter-transits-2020-2035.html
+- 2027–2028年の日食（50都市）：https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/solar-eclipse-2027
+  — 表：https://aether-core1219.github.io/planet-sign-ingress-data/solar-eclipses-2027-2028.html
+- 新月・満月の表：https://aether-core1219.github.io/planet-sign-ingress-data/lunations-2026-2027.html
+- 逆行の表：https://aether-core1219.github.io/planet-sign-ingress-data/retrograde-2025-2027.html
 - データの説明：https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/data
 
 ## Retrograde periods 2025–2027
-`data/retrograde-periods-2025-2027.csv` — Mercury, Venus, Mars, Jupiter and Saturn retrograde and direct station times (UTC, minutes truncated) with sign and degree. Astronomy Engine 2.1.19, geocentric apparent longitude of date; station = sign change of daily motion, bisected to 30 s. Human-readable calendar: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/retrograde
+`data/retrograde-periods-2025-2027.csv` — Mercury, Venus, Mars, Jupiter and Saturn retrograde and direct station times (UTC, minutes truncated) with sign and degree. Astronomy Engine 2.1.19, geocentric apparent longitude of date; station = sign change of daily motion, bisected to 30 s. Table page: https://aether-core1219.github.io/planet-sign-ingress-data/retrograde-2025-2027.html
+Human-readable calendar: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/retrograde
 
 ## New moons, full moons and eclipses 2026–2027
-`data/new-full-moons-2026-2027.csv` — every new and full moon in 2026 and 2027 (UTC and JST, minutes truncated) with the Moon's tropical sign and degree, flagged where a solar or lunar eclipse occurs. Astronomy Engine 2.1.19 (SearchMoonQuarter, SearchGlobalSolarEclipse, SearchLunarEclipse). Human-readable calendar: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/full-moon-new-moon （日本語: https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/full-moon-new-moon）
+`data/new-full-moons-2026-2027.csv` — every new and full moon in 2026 and 2027 (UTC and JST, minutes truncated) with the Moon's tropical sign and degree, flagged where a solar or lunar eclipse occurs. Astronomy Engine 2.1.19 (SearchMoonQuarter, SearchGlobalSolarEclipse, SearchLunarEclipse). Table page: https://aether-core1219.github.io/planet-sign-ingress-data/lunations-2026-2027.html
+Human-readable calendar: https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/full-moon-new-moon （日本語: https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/full-moon-new-moon）
 
 ## Saturn sign ingresses 1935–2080 (sidereal and tropical)
 
 `data/saturn-ingresses-1935-2080.csv`: every time Saturn changes zodiac sign from 1935 to 2080, in both the sidereal zodiac (Lahiri ayanamsa) and the tropical zodiac, including retrograde re-entries. Columns: `utc` (to the minute), `zodiac` (`sidereal_lahiri` or `tropical`), `from_sign`, `to_sign`, `direction`. Source: NASA JPL Horizons (target 699), geocentric apparent ecliptic-of-date longitude, daily, 4-point Lagrange interpolation. Checked against Swiss Ephemeris tables: tropical Aries 2025-05-25 03:36, sidereal Aries 2027-06-02 23:58 UTC (both within 1 minute).
+
+Table pages: [Sade Sati 2000–2060](https://aether-core1219.github.io/planet-sign-ingress-data/sade-sati-2000-2060.html) · [Saturn ingresses and returns](https://aether-core1219.github.io/planet-sign-ingress-data/saturn-returns.html)
 
 Built on this data: [Sade Sati dates by Moon sign and calculator](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/sade-sati?utm_source=github&utm_medium=dataset&utm_campaign=saturn-data) · [Saturn return calculator](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/saturn-return?utm_source=github&utm_medium=dataset&utm_campaign=saturn-data)
 
@@ -75,10 +101,14 @@ claude mcp add --transport http genesis-astro https://genesis-astro-guide-r2owty
 
 `data/jupiter-ingresses-1935-2080.csv`: every time Jupiter changes zodiac sign from 1935 to 2080, in both the sidereal zodiac (Lahiri ayanamsa, "Guru Gochar") and the tropical zodiac, including retrograde re-entries. Columns: `utc` (to the minute), `zodiac` (`sidereal_lahiri` or `tropical`), `from_sign`, `to_sign`, `direction`. Source: NASA JPL Horizons (target 599), geocentric apparent ecliptic-of-date longitude, daily, 4-point Lagrange interpolation. Tropical ingresses into Cancer (2025-06-09 21:02 UTC), Leo (2026-06-30 05:52 UTC) and Virgo (2027-07-26 04:49 UTC) match published JPL-based almanacs to the minute.
 
+Table page: [Jupiter sign changes 2020–2035](https://aether-core1219.github.io/planet-sign-ingress-data/jupiter-transits-2020-2035.html)
+
 Built on this data: [Jupiter transit dates 2020-2035, retrogrades and house by Moon/rising sign](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/jupiter-transit?utm_source=github&utm_medium=dataset&utm_campaign=jupiter-data)
 
 ## Solar eclipses 2027–2028: local circumstances for 50 cities
 
 `data/solar-eclipses-2027-2028-cities.csv`: for the annular eclipse of 2027-02-06, the total eclipse of 2027-08-02, the annular eclipse of 2028-01-26 and the total eclipse of 2028-07-22, every one of 50 cities where the eclipse is visible: local type (total / annular / partial), share of the Sun's disc covered, contact times (UTC, to the second), Sun altitude at maximum and duration of totality or annularity. Computed with Astronomy Engine 2.1.19 (`SearchLocalSolarEclipse`, sea-level observer). Luxor totality on 2027-08-02 comes out at 6 min 25 s.
+
+Table page: [Solar eclipses 2027–2028, 50 cities](https://aether-core1219.github.io/planet-sign-ingress-data/solar-eclipses-2027-2028.html)
 
 Built on this data: [Total solar eclipse of August 2, 2027: where and when, 50 cities](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/solar-eclipse-2027?utm_source=github&utm_medium=dataset&utm_campaign=eclipse-data)

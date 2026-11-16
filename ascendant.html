@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How the Ascendant (rising sign / Lagna) is calculated</title>
+<meta name="description" content="The Ascendant is the ecliptic longitude of the eastern horizon at a given time and place. A short account of the local-sidereal-time calculation, tropical versus sidereal (Lahiri) Lagna, and why birth time matters, with a free calculator.">
+<link rel="canonical" href="https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/ascendant">
+<style>body{font-family:system-ui,sans-serif;max-width:860px;margin:40px auto;padding:0 16px;line-height:1.6;color:#1b1f29}a{color:#0b6b7a}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border-bottom:1px solid #e3e6ec;padding:6px 8px;text-align:left}th{background:#f3f5f8}</style>
+</head>
+<body>
+<h1>How the Ascendant (rising sign / Lagna) is calculated</h1>
+<p>The Ascendant is the ecliptic longitude of the eastern horizon at a given instant and place. In Western astrology that longitude is usually expressed in the tropical zodiac; in Jyotish the same geometric point is called the Lagna and is usually expressed in the sidereal zodiac (Lahiri ayanamsa). It is a horizon calculation, not a planet position, so it needs a date, a clock time, a time zone or UTC offset, and the latitude and longitude of the location.</p>
+<h2>What is computed</h2>
+<ul>
+<li>From the date and time, obtain Greenwich sidereal time and then local sidereal time (add the geographic longitude, east positive).</li>
+<li>The local sidereal time is the right ascension of the midheaven (MC). The MC’s ecliptic longitude follows from the obliquity of the ecliptic.</li>
+<li>The Ascendant is the ascending node of the horizon and the ecliptic: the ecliptic degree that is rising at that latitude and local sidereal time.</li>
+<li>A sidereal (Lahiri) Lagna is the tropical Ascendant minus the Lahiri ayanamsa at that date. Houses are then counted from that degree.</li>
+</ul>
+<p>Because the horizon moves through about one degree of the ecliptic in four minutes, a birth time that is off by a few minutes can change the degree and, near a sign boundary, the rising sign itself.</p>
+<p>Guide: <a href="https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/ascendant?utm_source=github-pages&utm_medium=entry&utm_campaign=ascendant">What is the Ascendant? Rising sign and Lagna</a> (日本語: <a href="https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/guides/ascendant?utm_source=github-pages&utm_medium=entry&utm_campaign=ascendant">アセンダント・ラグナの調べ方</a>). Free calculator from birth time and place: <a href="https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/tools/ascendant?utm_source=github-pages&utm_medium=entry&utm_campaign=ascendant">Lagna / rising sign calculator</a> (日本語: <a href="https://genesis-astro-guide-r2owtywexa-an.a.run.app/ja/tools/ascendant?utm_source=github-pages&utm_medium=entry&utm_campaign=ascendant">アセンダント計算</a>).</p>
+<p>Related open data on this site covers planetary sign ingresses, not the horizon itself: <a href="./">planet sign ingress data</a>. The same calculation is also available to AI assistants through a free <a href="https://github.com/AETHER-CORE1219/genesis-astro-mcp">MCP server</a>.</p>
+<p><a href="./">Planet sign ingress data</a> · <a href="https://github.com/AETHER-CORE1219/planet-sign-ingress-data">GitHub</a> · Data <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+</body>
+</html>
