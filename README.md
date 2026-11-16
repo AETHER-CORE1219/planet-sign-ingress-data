@@ -76,3 +76,9 @@ claude mcp add --transport http genesis-astro https://genesis-astro-guide-r2owty
 `data/jupiter-ingresses-1935-2080.csv`: every time Jupiter changes zodiac sign from 1935 to 2080, in both the sidereal zodiac (Lahiri ayanamsa, "Guru Gochar") and the tropical zodiac, including retrograde re-entries. Columns: `utc` (to the minute), `zodiac` (`sidereal_lahiri` or `tropical`), `from_sign`, `to_sign`, `direction`. Source: NASA JPL Horizons (target 599), geocentric apparent ecliptic-of-date longitude, daily, 4-point Lagrange interpolation. Tropical ingresses into Cancer (2025-06-09 21:02 UTC), Leo (2026-06-30 05:52 UTC) and Virgo (2027-07-26 04:49 UTC) match published JPL-based almanacs to the minute.
 
 Built on this data: [Jupiter transit dates 2020-2035, retrogrades and house by Moon/rising sign](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/jupiter-transit?utm_source=github&utm_medium=dataset&utm_campaign=jupiter-data)
+
+## Solar eclipses 2027–2028: local circumstances for 50 cities
+
+`data/solar-eclipses-2027-2028-cities.csv`: for the annular eclipse of 2027-02-06, the total eclipse of 2027-08-02, the annular eclipse of 2028-01-26 and the total eclipse of 2028-07-22, every one of 50 cities where the eclipse is visible: local type (total / annular / partial), share of the Sun's disc covered, contact times (UTC, to the second), Sun altitude at maximum and duration of totality or annularity. Computed with Astronomy Engine 2.1.19 (`SearchLocalSolarEclipse`, sea-level observer). Luxor totality on 2027-08-02 comes out at 6 min 25 s.
+
+Built on this data: [Total solar eclipse of August 2, 2027: where and when, 50 cities](https://genesis-astro-guide-r2owtywexa-an.a.run.app/en/guides/solar-eclipse-2027?utm_source=github&utm_medium=dataset&utm_campaign=eclipse-data)
